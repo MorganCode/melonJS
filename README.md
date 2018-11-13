@@ -1,19 +1,11 @@
-Hackathon Lyon 0918 - Backend Boilerplate
+Environnement de travail MelonJS
 =========================================
-
-Before beginning
-----------------
-You have to only modify `src/routes` file.
-The database is a big clear Json. You can have a look in `myDataBase.json` file.
-
-You have a CRUD already in place about `item` element. Feel free to adapt at your convenience.
 
 To run
 --------
-```sh
 # clone it
-git clone https://github.com/grpetit/Hackathon1Lyon0918.git
-cd Hackathon1Lyon0918
+git clone https://github.com/MorganCode/melonJS.git
+cd melonsJS
 
 # Make it your own
 rm -rf .git && git init && npm init
@@ -25,7 +17,12 @@ npm install
 npm start
 
 ```
+Une fois le serveur en route tapper le liens suivant : http://localhost:5000/static/melonJs/ 
 
-Database
---------
-You can get API info here: https://www.npmjs.com/package/node-json-db
+Le jeu ce lance, pour mettre votre propre niveau allez dans le fichier /melonJs/data/map/ et changer le nom "area01".
+
+// load a level
+me.levelDirector.loadLevel("area01"); 
+
+
+dans le fichier melonJs/js/screens/play.js  
