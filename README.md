@@ -16,8 +16,11 @@ npm install
 # Start development live-reload server
 npm start
 
-```
+# Start play
+
 Une fois le serveur en route tapper le liens suivant : http://localhost:5000/static/melonJs/ 
+
+# Change mapTiled
 
 Le jeu ce lance, pour mettre votre propre niveau allez dans le fichier /melonJs/data/map/ et changer le nom "area01".
 
