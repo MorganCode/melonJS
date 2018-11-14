@@ -5,6 +5,7 @@ To run
 --------
 # clone it
 git clone https://github.com/MorganCode/melonJS.git
+---------
 cd melonsJS
 
 # Make it your own
